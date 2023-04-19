@@ -361,3 +361,8 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+#Hide critical config information
+config.xml
+.xml
+/Sohbet Uygulaması V2.0/config.xml
