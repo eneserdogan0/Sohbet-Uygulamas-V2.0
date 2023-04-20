@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?> 
 <Firebase>
-	<ApiKey> ApiKey = "AIzaSyDrrIHo-bCqEv9rtrc-WYxWYn5Bh6UH5Z8", </ApiKey>
-	<AuthDomain> AuthDomain = "sohbetuygulamasiv2eneserdogan0.firebaseapp.com", </AuthDomain>
+	<ApiKey> ApiKey = "key", </ApiKey>
+	<AuthDomain> AuthDomain = "domain", </AuthDomain>
 	</Firebase>

@@ -12,9 +12,18 @@ namespace Sohbet_Uygulaması_V2._0
 {
     public partial class Login : Form
     {
-        public Login()
+        private string ApiKey;
+        private string AuthDomain;
+        public Login(string apiKey, string authDomain)
         {
             InitializeComponent();
+            this.ApiKey = ApiKey;
+            this.AuthDomain = AuthDomain;
+        }
+
+        private void GirisYapBtn_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

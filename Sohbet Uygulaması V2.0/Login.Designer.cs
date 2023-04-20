@@ -34,15 +34,18 @@
             // 
             // GirisYapBtn
             // 
+            this.GirisYapBtn.Cursor = System.Windows.Forms.Cursors.AppStarting;
             this.GirisYapBtn.Location = new System.Drawing.Point(71, 21);
             this.GirisYapBtn.Name = "GirisYapBtn";
             this.GirisYapBtn.Size = new System.Drawing.Size(123, 32);
             this.GirisYapBtn.TabIndex = 0;
             this.GirisYapBtn.Text = "Giris Yap";
             this.GirisYapBtn.UseVisualStyleBackColor = true;
+            this.GirisYapBtn.Click += new System.EventHandler(this.GirisYapBtn_Click);
             // 
             // HspOlusturBtn
             // 
+            this.HspOlusturBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.HspOlusturBtn.Location = new System.Drawing.Point(284, 21);
             this.HspOlusturBtn.Name = "HspOlusturBtn";
             this.HspOlusturBtn.Size = new System.Drawing.Size(128, 32);

@@ -19,10 +19,10 @@ namespace Sohbet_Uygulaması_V2._0
             config.Load("config.xml");
             string ApiKey = config.DocumentElement.SelectSingleNode("/Firebase/ApiKey").InnerText.Trim();
             string AuthDomain = config.DocumentElement.SelectSingleNode("/Firebase/AuthDomain").InnerText.Trim();
-            MessageBox.Show(ApiKey);
+            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Login());
+            Application.Run(new Login(ApiKey,AuthDomain));
         }
     }
 }
