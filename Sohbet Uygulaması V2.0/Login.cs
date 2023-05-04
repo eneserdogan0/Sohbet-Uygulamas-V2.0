@@ -25,5 +25,10 @@ namespace Sohbet_Uygulaması_V2._0
         {
 
         }
+
+        private void DENEME_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("denemeeeeeeeeee");
+        }
     }
 }

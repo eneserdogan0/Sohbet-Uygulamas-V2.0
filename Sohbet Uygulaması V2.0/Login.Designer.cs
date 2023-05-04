@@ -30,6 +30,7 @@
         {
             this.GirisYapBtn = new System.Windows.Forms.Button();
             this.HspOlusturBtn = new System.Windows.Forms.Button();
+            this.DENEME = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // GirisYapBtn
@@ -53,11 +54,22 @@
             this.HspOlusturBtn.Text = "Hesap Olustur";
             this.HspOlusturBtn.UseVisualStyleBackColor = true;
             // 
+            // DENEME
+            // 
+            this.DENEME.Location = new System.Drawing.Point(347, 226);
+            this.DENEME.Name = "DENEME";
+            this.DENEME.Size = new System.Drawing.Size(75, 23);
+            this.DENEME.TabIndex = 2;
+            this.DENEME.Text = "DeneBakalım";
+            this.DENEME.UseVisualStyleBackColor = true;
+            this.DENEME.Click += new System.EventHandler(this.DENEME_Click);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(483, 450);
+            this.Controls.Add(this.DENEME);
             this.Controls.Add(this.HspOlusturBtn);
             this.Controls.Add(this.GirisYapBtn);
             this.Name = "Login";
@@ -70,6 +82,7 @@
 
         private System.Windows.Forms.Button GirisYapBtn;
         private System.Windows.Forms.Button HspOlusturBtn;
+        private System.Windows.Forms.Button DENEME;
     }
 }
 
